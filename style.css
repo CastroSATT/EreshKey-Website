@@ -304,34 +304,35 @@ section {
 /* Security Section */
 .security-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
 }
 
 .security-item {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .security-badge {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem;
     background: var(--primary-gradient);
     border-radius: 50px;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
     font-weight: 600;
 }
 
 .security-item h3 {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
     color: var(--text-primary);
 }
 
 .security-item p {
     color: var(--text-secondary);
-    line-height: 1.8;
+    line-height: 1.6;
+    font-size: 0.9rem;
 }
 
 /* How It Works */
@@ -341,8 +342,8 @@ section {
 
 .steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
     position: relative;
 }
 
@@ -352,28 +353,29 @@ section {
 }
 
 .step-number {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: var(--primary-gradient);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 800;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1rem;
     box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
 }
 
 .step h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
     color: var(--text-primary);
 }
 
 .step p {
     color: var(--text-secondary);
-    line-height: 1.8;
+    line-height: 1.6;
+    font-size: 0.9rem;
 }
 
 /* Open Source Section */
@@ -786,25 +788,38 @@ section {
 /* Footer */
 .footer {
     background: var(--card-bg);
-    padding: 4rem 0 2rem;
+    padding: 2rem 0 1.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 4rem;
-    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    align-items: flex-start;
+}
+
+.footer-brand {
+    flex: 1;
+    min-width: 200px;
 }
 
 .footer-brand p {
     color: var(--text-secondary);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.footer-column {
+    flex: 0 1 auto;
+    min-width: 120px;
 }
 
 .footer-column h4 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
     color: var(--text-primary);
+    font-size: 0.95rem;
 }
 
 .footer-column ul {
@@ -812,8 +827,9 @@ section {
 }
 
 .footer-column ul li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
     color: var(--text-secondary);
+    font-size: 0.85rem;
 }
 
 .footer-column a {
@@ -828,9 +844,10 @@ section {
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-secondary);
+    font-size: 0.85rem;
 }
 
 /* Responsive */
@@ -866,8 +883,12 @@ section {
     }
     
     .footer-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .footer-column {
+        min-width: 100%;
     }
     
     .section-title {
@@ -885,6 +906,47 @@ section {
     
     .platforms-versions {
         grid-template-columns: 1fr;
+    }
+    
+    .steps {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .step h3 {
+        font-size: 1rem;
+    }
+    
+    .step p {
+        font-size: 0.85rem;
+    }
+    
+    .security-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
+    .security-item {
+        padding: 1rem;
+    }
+    
+    .security-badge {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .security-item h3 {
+        font-size: 1rem;
+    }
+    
+    .security-item p {
+        font-size: 0.85rem;
     }
     
     .download-buttons {
