@@ -3,15 +3,365 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>EreshKey - On-Chain Password Manager | True Data Sovereignty</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="greeting">Hello World</h1>
-        <button id="clickBtn">Click Me!</button>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🔐</span>
+                <span class="logo-text">EreshKey</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#open-source">Open Source</a></li>
+                <li><a href="#platforms">Platforms</a></li>
+                <li><a href="#origin">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">True Data Sovereignty</span><br>
+                On the Blockchain
+            </h1>
+            <p class="hero-subtitle">
+                The only password manager that gives you absolute control. 
+                No servers. No intermediaries. Your Solana key is the single source of truth.
+                <br><br>
+                <strong>100% Open Source</strong> - Full code reviewable and auditable.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Coming Soon</button>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">On-Chain</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">0</div>
+                    <div class="stat-label">Servers</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Control</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="card-icon">🔑</div>
+                <div class="card-text">Passwords</div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-icon">📝</div>
+                <div class="card-text">Notes</div>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-icon">💬</div>
+                <div class="card-text">Chat</div>
+            </div>
+            <div class="floating-card card-4">
+                <div class="card-icon">🔒</div>
+                <div class="card-text">Encrypted</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Everything You Need</h2>
+            <p class="section-subtitle">A complete password management solution built for the decentralized future</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Password Management</h3>
+                    <p>Store unlimited passwords with auto-generation, TOTP 2FA support, and secure credential management.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⛓️</div>
+                    <h3>Blockchain Storage</h3>
+                    <p>All data encrypted and stored on Solana blockchain. Immutable, permanent, and truly yours.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Encrypted Chat</h3>
+                    <p>End-to-end encrypted messaging between Solana wallets with built-in SOL transfer commands.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Secure Notes</h3>
+                    <p>Store unlimited encrypted notes on-chain. Your thoughts, permanently secured.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔑</div>
+                    <h3>TOTP 2FA</h3>
+                    <p>Generate time-based one-time passwords. QR code scanning support for easy setup.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Parallel Scanning</h3>
+                    <p>Lightning-fast blockchain scanning with optimized architecture. 66% fewer API calls.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Open Source</h3>
+                    <p>Completely open source. Full code reviewable, auditable, and transparent. Trust through verification.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="security">
+        <div class="container">
+            <h2 class="section-title">Military-Grade Security</h2>
+            <p class="section-subtitle">Your data is protected by the strongest encryption standards</p>
+            
+            <div class="security-grid">
+                <div class="security-item">
+                    <div class="security-badge">AES-256-GCM</div>
+                    <h3>Industry-Standard Encryption</h3>
+                    <p>All data encrypted with AES-256-GCM before leaving your device. Zero-knowledge architecture.</p>
+                </div>
+                
+                <div class="security-item">
+                    <div class="security-badge">🔐</div>
+                    <h3>Biometric Protection</h3>
+                    <p>Face ID and Touch ID support with automatic app locking. Your keys, your control.</p>
+                </div>
+                
+                <div class="security-item">
+                    <div class="security-badge">🛡️</div>
+                    <h3>Secure Enclave</h3>
+                    <p>iOS Secure Enclave integration for key generation. Hardware-level security.</p>
+                </div>
+                
+                <div class="security-item">
+                    <div class="security-badge">⚡</div>
+                    <h3>No Servers</h3>
+                    <p>Zero server infrastructure. No cloud storage. No third-party access. Ever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Simple, secure, and completely decentralized</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Create Your Wallet</h3>
+                    <p>Generate a Solana wallet or import an existing one. Your private key is your master key.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Encrypt & Store</h3>
+                    <p>All passwords, notes, and messages are encrypted on-device before being stored on-chain.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Access Anywhere</h3>
+                    <p>Use the same seed phrase on any device to access your data. True cross-device sync.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Complete Control</h3>
+                    <p>Your data, your keys, your sovereignty. No one can access your encrypted data but you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Source Section -->
+    <section id="open-source" class="open-source">
+        <div class="container">
+            <h2 class="section-title">100% Open Source</h2>
+            <p class="section-subtitle">Transparency through complete code visibility</p>
+            
+            <div class="open-source-content">
+                <div class="open-source-text">
+                    <h3>Trust Through Verification</h3>
+                    <p>EreshKey is completely open source. Every line of code is reviewable, auditable, and transparent. No hidden backdoors, no proprietary secrets. The entire codebase will be available for security researchers, developers, and users to inspect, verify, and contribute to.</p>
+                    <ul class="open-source-list">
+                        <li>✅ Full source code available</li>
+                        <li>✅ Security audits welcome</li>
+                        <li>✅ Community contributions</li>
+                        <li>✅ Complete transparency</li>
+                    </ul>
+                </div>
+                <div class="open-source-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="code-dot"></span>
+                            <span class="code-dot"></span>
+                            <span class="code-dot"></span>
+                            <span class="code-title">ereshkey/</span>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line"><span class="code-keyword">public</span> <span class="code-class">class</span> <span class="code-name">EreshKey</span></div>
+                            <div class="code-line">  <span class="code-comment">// Fully auditable</span></div>
+                            <div class="code-line">  <span class="code-comment">// No secrets</span></div>
+                            <div class="code-line">  <span class="code-comment">// Complete transparency</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section id="platforms" class="platforms">
+        <div class="container">
+            <h2 class="section-title">Available Everywhere</h2>
+            <p class="section-subtitle">Cross-platform support with UI and CLI versions</p>
+            
+            <div class="platforms-timeline">
+                <div class="platform-item platform-available">
+                    <div class="platform-icon">📱</div>
+                    <h3>iOS</h3>
+                    <p class="platform-status">Available First</p>
+                    <p>Native SwiftUI app with full feature set</p>
+                </div>
+                
+                <div class="platform-item platform-coming">
+                    <div class="platform-icon">🤖</div>
+                    <h3>Android</h3>
+                    <p class="platform-status">Coming Soon</p>
+                    <p>Native Android app with Material Design</p>
+                </div>
+                
+                <div class="platform-item platform-coming">
+                    <div class="platform-icon">🌐</div>
+                    <h3>Web</h3>
+                    <p class="platform-status">Coming Soon</p>
+                    <p>Progressive Web App accessible from any browser</p>
+                </div>
+                
+                <div class="platform-item platform-coming">
+                    <div class="platform-icon">💻</div>
+                    <h3>Desktop</h3>
+                    <p class="platform-status">Coming Soon</p>
+                    <p>Standalone apps for Mac, Windows, and Linux</p>
+                </div>
+            </div>
+            
+            <div class="platforms-versions">
+                <div class="version-card">
+                    <div class="version-icon">🎨</div>
+                    <h3>UI Version</h3>
+                    <p>Beautiful, intuitive graphical interface for all platforms</p>
+                </div>
+                
+                <div class="version-card">
+                    <div class="version-icon">⌨️</div>
+                    <h3>CLI Version</h3>
+                    <p>Powerful command-line interface for advanced users and automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Name Origin Section -->
+    <section id="origin" class="origin">
+        <div class="container">
+            <h2 class="section-title">The Name</h2>
+            <p class="section-subtitle">Inspired by ancient guardians of the underworld</p>
+            
+            <div class="origin-content">
+                <div class="origin-visual">
+                    <div class="mythology-icon">👑</div>
+                </div>
+                <div class="origin-text">
+                    <h3>EreshKey: Guardian of Your Secrets</h3>
+                    <p>
+                        The name <strong>EreshKey</strong> draws inspiration from <strong>Ereshkigal</strong>, 
+                        the ancient Mesopotamian goddess of the underworld. In mythology, Ereshkigal was the 
+                        powerful guardian of the realm of the dead, protecting what was most sacred and valuable.
+                    </p>
+                    <p>
+                        Just as Ereshkigal guarded the underworld with absolute authority, <strong>EreshKey</strong> 
+                        guards your digital secrets with the same unwavering protection. Your passwords, notes, 
+                        and sensitive data are kept secure in the immutable realm of the blockchain—protected, 
+                        permanent, and under your complete control.
+                    </p>
+                    <p class="origin-tagline">
+                        <em>From ancient guardians to modern cryptography—your keys, your sovereignty.</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🔐</span>
+                        <span class="logo-text">EreshKey</span>
+                    </div>
+                    <p>On-chain password manager for the decentralized future.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#security">Security</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Technology</h4>
+                        <ul>
+                            <li>Solana Blockchain</li>
+                            <li>AES-256-GCM</li>
+                            <li>iOS Secure Enclave</li>
+                            <li>100% Open Source</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Platforms</h4>
+                        <ul>
+                            <li>iOS (Available First)</li>
+                            <li>Android (Coming Soon)</li>
+                            <li>Web (Coming Soon)</li>
+                            <li>Desktop (Coming Soon)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EreshKey. Built on Solana.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
-
